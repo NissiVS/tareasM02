@@ -1,0 +1,24 @@
+Algoritmo super_liga
+	Definir pg, pe, pp Como Entero
+	Definir ptg,pte,ptp Como Entero
+	Escribir "Ingresar nombre del equipo: "
+	Leer eq
+	Escribir "Ingresar partidos ganados: "
+	Leer pg
+	Escribir "Ingresar partidos perdidos: " 
+	Leer pp
+	Escribir "Ingresar partido empatados: "
+	Leer pe
+	
+	ptsg<- pg * 3
+	ptse<- pe * 1
+	pts<- ptsg + ptse 
+	part<- pg + pp+ pe
+	
+	Escribir "Equipo:  ", eq, "Jugo ",part, "Partido "
+	Escribir "Ganó:  ",pg, "Partidos"
+	Escribir "Empato: ", pe, "Partidos"
+	Escribir "Perdío: ",pp, "Partido"
+	Escribir "Puntos acumulados:  ", pts
+	
+FinAlgoritmo
